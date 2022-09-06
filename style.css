@@ -1,0 +1,141 @@
+body{
+    background-color: azure;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: xx-large;
+}
+.btn{
+    position: absolute;
+    width: 200px;
+    height: 48px;
+    box-sizing: border-box;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    }
+
+#btn1{
+    left: 600px;
+    top: 200px;
+}
+#btn2{
+    left: 600px;
+    top: 300px;
+}
+.btn:hover{
+border: 5px solid  #D8DFE8;
+background:#0A3871;
+}
+
+#foot{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #0A3871;
+    color: white;
+    text-align: center;
+}
+
+/*css ahorcado*/
+
+#btn3{
+    left: 400px;
+    top: 500px;
+}
+
+#btn4{    
+    left: 750px;
+    top: 500px;
+}
+#persona
+{
+  max-height: 100%;
+  max-height: 100%;
+  display: inline-block;
+}
+
+.persona-ahorcada
+{
+  width: 100vw;
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  height: 16.75rem;
+}
+.adivina
+{
+  text-align: center;
+  color: #06316C;
+  font-size: 1.8rem;
+}
+.fallado
+{
+  text-align: center;
+  margin-top: 1rem;
+  color: #242D34;
+}
+.letra
+{
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+.adivinada
+{
+  width: 4.5rem;
+  height: 4.5rem;
+  border-bottom: solid 1px #06316C;
+  margin-left: 0.4rem;
+  line-height: 4.5rem;
+}
+
+.fallida
+{
+  margin-left: 1rem;
+}
+.fallado
+{
+  text-align: center;
+  margin-top: 1rem;
+  color: #242D34;
+}
+#texto{
+  left: 500px;
+  top: 200px;
+  position: absolute;
+    width: 300px;
+    height: 48px;
+    box-sizing: border-box;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+}
+#agregar-palabra{
+  left: 550px;
+  top: 300px;
+}
+#btn5{
+  left: 550px;
+  top: 400px;
+}
+::placeholder {
+  text-align: center;
+}
+#btn6{
+  left: 800px;
+  top: 400px;
+  position: absolute;
+  width: 200px;
+  height: 48px;
+  box-sizing: border-box;
+  background: #0A3871;
+  border: 1px solid #e05616;
+  border-radius: 24px;
+}
+#btn6:hover{
+  border: 5px solid  #D8DFE8;
+  background:  #e90f0f;
+  }

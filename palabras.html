@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="script.js" type="text/javascript"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Agregar palabra(s)</h1>
+    <input type="text" id="texto" placeholder="Inserte palabra" />
+
+    <input
+      type="button"
+      id="agregar-palabra"
+      value="Agregar nueva palabra"
+      class="btn"
+      onclick="agregarPalabra()"
+    />
+    <button class="btn" id="btn5" onclick="location.href = 'ahorcado.html'">
+      Jugar
+    </button>
+    <button id="btn6" onclick="location.href = 'index.html'">Salir</button>
+    <div>
+      <footer id="foot">Mario Alberto Hernández Morales</footer>
+    </div>
+    <script src="./script.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </body>
+</html>
